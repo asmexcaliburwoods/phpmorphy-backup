@@ -1,2 +1,2 @@
 # phpmorphy-backup
-A backup of https://sourceforge.net/projects/phpmorphy/
+TODO Make a backup of https://sourceforge.net/projects/phpmorphy/
