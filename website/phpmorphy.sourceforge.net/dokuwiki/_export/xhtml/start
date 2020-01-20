@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru"
+ lang="ru" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>start</title>
+<meta name="generator" content="DokuWiki snapshot?" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2009-09-29T09:52:46+0000" />
+<meta name="keywords" content="start" />
+<link rel="search" type="application/opensearchdescription+xml" href="/dokuwiki/lib/exe/opensearch.php" title="phpMorphy home" />
+<link rel="start" href="/dokuwiki/" />
+<link rel="contents" href="/dokuwiki/start?do=index" title="Все страницы" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/dokuwiki/feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="/dokuwiki/feed.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="/dokuwiki/_export/xhtml/start" />
+<link rel="stylesheet" media="all" type="text/css" href="/dokuwiki/lib/exe/css.php?s=all&amp;t=phpmorphy" />
+<link rel="stylesheet" media="screen" type="text/css" href="/dokuwiki/lib/exe/css.php?t=phpmorphy" />
+<link rel="stylesheet" media="print" type="text/css" href="/dokuwiki/lib/exe/css.php?s=print&amp;t=phpmorphy" />
+<script type="text/javascript" charset="utf-8" src="/dokuwiki/lib/exe/js.php?edit=0&amp;write=0" ></script>
+<script type="text/javascript" charset="utf-8" src="/dokuwiki/lib/plugins/tableedit/tableedit.js" ></script>
+</head>
+<body>
+<div class="dokuwiki export">
+<!-- TOC START -->
+<div class="toc">
+<div class="tocheader toctoggle" id="toc__header">Содержание</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#phpmorphy" class="toc">phpMorphy</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#возможности" class="toc">Возможности</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#информация" class="toc">Информация</a></span></div></li></ul>
+</li></ul>
+</div>
+</div>
+<!-- TOC END -->
+
+
+
+<h1><a name="phpmorphy" id="phpmorphy">phpMorphy</a></h1>
+<div class="level1">
+
+<p>
+phpMorphy – библиотека морфологического анализа, реализованная на платформе <acronym title="Hypertext Preprocessor">PHP</acronym>.
+</p>
+
+</div>
+<!-- SECTION "phpMorphy" [1-165] -->
+<h2><a name="возможности" id="возможности">Возможности</a></h2>
+<div class="level2">
+
+<p>
+phpMorphy позволяет решать следующие задачи:
+</p>
+<ul>
+<li class="level1"><div class="li"> Лемматизация (получение нормальной формы слова)</div>
+</li>
+<li class="level1"><div class="li"> Получение всех форм слова</div>
+</li>
+<li class="level1"><div class="li"> Получение грамматической информации для слова (часть речи, падеж, спряжение и т.д.)</div>
+</li>
+<li class="level1"><div class="li"> Изменение формы слова в соответствии с заданными грамматическими характеристиками</div>
+</li>
+<li class="level1"><div class="li"> Изменение формы слова по заданному образцу</div>
+</li>
+</ul>
+
+<p>
+
+Поддерживаемые языки: Русский, Английский, Немецкий (AOT). Украинский, Эстонский (на основе ispell). Есть возможность добавить поддержку других языков при помощи myspell словаря.
+</p>
+
+<p>
+Поддерживаются различные кодировки: 
+</p>
+<ul>
+<li class="level1"><div class="li"> все однобайтовые (windows-1251, iso-8859-* и т.п.)</div>
+</li>
+<li class="level1"><div class="li"> Unicode кодировки - utf-8, utf-16le/be, utf-32, ucs2, ucs4. </div>
+</li>
+</ul>
+
+</div>
+<!-- SECTION "Возможности" [166-1348] -->
+<h2><a name="информация" id="информация">Информация</a></h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Документация</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual" class="wikilink1" title="manual">Использование phpMorphy</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-graminfo" class="wikilink1" title="manual-graminfo">Описание грамматической информации</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-build-system" class="wikilink2" title="manual-build-system" rel="nofollow">Система сборки</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-internal" class="wikilink2" title="manual-internal" rel="nofollow">Внутреннее устройство</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-internal-format" class="wikilink2" title="manual-internal-format" rel="nofollow">Формат файлов</a></div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/download" class="wikilink1" title="download">Скачать</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/demo" class="wikilink1" title="demo">Демонстрация работы</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://sourceforge.net/apps/phpbb/phpmorphy/" class="urlextern" title="http://sourceforge.net/apps/phpbb/phpmorphy/"  rel="nofollow">Форум</a></div>
+<ul>
+<li class="level2"><div class="li"> тема на форуме <a href="http://phpclub.ru/talk/showthread.php?s=&amp;threadid=96949&amp;rand=207" class="urlextern" title="http://phpclub.ru/talk/showthread.php?s=&amp;threadid=96949&amp;rand=207"  rel="nofollow">phpclub</a></div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <a href="https://sourceforge.net/apps/mantisbt/phpmorphy/" class="urlextern" title="https://sourceforge.net/apps/mantisbt/phpmorphy/"  rel="nofollow">BugTracker</a></div>
+</li>
+</ul>
+
+</div>
+<!-- SECTION "Информация" [1349-] --></div>
+</body>
+</html>

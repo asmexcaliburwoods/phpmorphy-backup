@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru"
+ lang="ru" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    start    [phpMorphy home]
+  </title>
+
+  <meta name="generator" content="DokuWiki snapshot?" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2009-09-29T09:52:46+0000" />
+<meta name="keywords" content="start" />
+<link rel="search" type="application/opensearchdescription+xml" href="/dokuwiki/lib/exe/opensearch.php" title="phpMorphy home" />
+<link rel="start" href="/dokuwiki/" />
+<link rel="contents" href="/dokuwiki/start?do=index" title="Все страницы" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/dokuwiki/feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="/dokuwiki/feed.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="/dokuwiki/_export/xhtml/start" />
+<link rel="stylesheet" media="all" type="text/css" href="/dokuwiki/lib/exe/css.php?s=all&amp;t=phpmorphy" />
+<link rel="stylesheet" media="screen" type="text/css" href="/dokuwiki/lib/exe/css.php?t=phpmorphy" />
+<link rel="stylesheet" media="print" type="text/css" href="/dokuwiki/lib/exe/css.php?s=print&amp;t=phpmorphy" />
+<script type="text/javascript" charset="utf-8" src="/dokuwiki/lib/exe/js.php?edit=0&amp;write=0" ></script>
+<script type="text/javascript" charset="utf-8" src="/dokuwiki/lib/plugins/tableedit/tableedit.js" ></script>
+
+  <link rel="shortcut icon" href="/dokuwiki/lib/tpl/phpmorphy/images/favicon.ico" />
+
+  </head>
+
+<body>
+<div class="dokuwiki">
+  
+  <div class="stylehead">
+
+    <div class="header">
+      <div class="pagename">
+        [[<a href="/dokuwiki/start?do=backlink"  title="Ссылки сюда">start</a>]]
+      </div>
+
+      <div class="logo">
+        <a href="/dokuwiki/"  name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[H]">phpMorphy home</a>      </div>
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="bar" id="bar__top">
+      <div class="bar-left" id="bar__topleft">
+                      </div>
+
+      <div class="bar-right" id="bar__topright">
+                <form action="/dokuwiki/" accept-charset="utf-8" class="search" id="dw__search"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><input type="submit" value="Поиск" class="button" title="Поиск" /><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>&nbsp;
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+
+        <div class="breadcrumbs">
+      <span class="bchead">Вы посетили:</span> <span class="bcsep">&raquo;</span> <span class="curid"><a href="/dokuwiki/start"  class="breadcrumbs" title="start">start</a></span>          </div>
+    
+    
+  </div>
+  
+  
+  <div class="page">
+    <!-- wikipage start -->
+    <!-- TOC START -->
+<div class="toc">
+<div class="tocheader toctoggle" id="toc__header">Содержание</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#phpmorphy" class="toc">phpMorphy</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#возможности" class="toc">Возможности</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#информация" class="toc">Информация</a></span></div></li></ul>
+</li></ul>
+</div>
+</div>
+<!-- TOC END -->
+
+
+
+<h1><a name="phpmorphy" id="phpmorphy">phpMorphy</a></h1>
+<div class="level1">
+
+<p>
+phpMorphy – библиотека морфологического анализа, реализованная на платформе <acronym title="Hypertext Preprocessor">PHP</acronym>.
+</p>
+
+</div>
+
+<h2><a name="возможности" id="возможности">Возможности</a></h2>
+<div class="level2">
+
+<p>
+phpMorphy позволяет решать следующие задачи:
+</p>
+<ul>
+<li class="level1"><div class="li"> Лемматизация (получение нормальной формы слова)</div>
+</li>
+<li class="level1"><div class="li"> Получение всех форм слова</div>
+</li>
+<li class="level1"><div class="li"> Получение грамматической информации для слова (часть речи, падеж, спряжение и т.д.)</div>
+</li>
+<li class="level1"><div class="li"> Изменение формы слова в соответствии с заданными грамматическими характеристиками</div>
+</li>
+<li class="level1"><div class="li"> Изменение формы слова по заданному образцу</div>
+</li>
+</ul>
+
+<p>
+
+Поддерживаемые языки: Русский, Английский, Немецкий (AOT). Украинский, Эстонский (на основе ispell). Есть возможность добавить поддержку других языков при помощи myspell словаря.
+</p>
+
+<p>
+Поддерживаются различные кодировки: 
+</p>
+<ul>
+<li class="level1"><div class="li"> все однобайтовые (windows-1251, iso-8859-* и т.п.)</div>
+</li>
+<li class="level1"><div class="li"> Unicode кодировки - utf-8, utf-16le/be, utf-32, ucs2, ucs4. </div>
+</li>
+</ul>
+
+</div>
+
+<h2><a name="информация" id="информация">Информация</a></h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Документация</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual" class="wikilink1" title="manual">Использование phpMorphy</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-graminfo" class="wikilink1" title="manual-graminfo">Описание грамматической информации</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-build-system" class="wikilink2" title="manual-build-system" rel="nofollow">Система сборки</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-internal" class="wikilink2" title="manual-internal" rel="nofollow">Внутреннее устройство</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="/dokuwiki/manual-internal-format" class="wikilink2" title="manual-internal-format" rel="nofollow">Формат файлов</a></div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/download" class="wikilink1" title="download">Скачать</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/demo" class="wikilink1" title="demo">Демонстрация работы</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://sourceforge.net/apps/phpbb/phpmorphy/" class="urlextern" title="http://sourceforge.net/apps/phpbb/phpmorphy/"  rel="nofollow">Форум</a></div>
+<ul>
+<li class="level2"><div class="li"> тема на форуме <a href="http://phpclub.ru/talk/showthread.php?s=&amp;threadid=96949&amp;rand=207" class="urlextern" title="http://phpclub.ru/talk/showthread.php?s=&amp;threadid=96949&amp;rand=207"  rel="nofollow">phpclub</a></div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <a href="https://sourceforge.net/apps/mantisbt/phpmorphy/" class="urlextern" title="https://sourceforge.net/apps/mantisbt/phpmorphy/"  rel="nofollow">BugTracker</a></div>
+</li>
+</ul>
+
+</div>
+
+    <!-- wikipage stop -->
+  </div>
+
+  <div class="clearer">&nbsp;</div>
+
+  
+  <div class="stylefoot">
+
+    <div class="meta">
+      <div class="user">
+              </div>
+      <div class="doc">
+        start.txt &middot; Последние изменения: 2009/09/29 09:52  От heromantor      </div>
+    </div>
+
+   
+    <div class="bar" id="bar__bottom">
+      <div class="bar-left" id="bar__bottomleft">
+                      </div>
+      <div class="bar-right" id="bar__bottomright">
+                                        <form class="button btn_login" method="get" action="/dokuwiki/start"><div class="no"><input type="hidden" name="do" value="login" /><input type="hidden" name="sectok" value="b2c556ee940871ebc74a2de67f6260a2" /><input type="submit" value="Войти" class="button" title="Войти" /></div></form>        <form class="button btn_index" method="get" action="/dokuwiki/start"><div class="no"><input type="hidden" name="do" value="index" /><input type="submit" value="Все страницы" class="button" accesskey="x" title="Все страницы [X]" /></div></form>        <a class="nolink" href="#dokuwiki__top"><input type="button" class="button" value="Наверх" onclick="window.scrollTo(0, 0)" title="Наверх" /></a>&nbsp;
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+  </div>
+
+  <div class="license">За исключением случаев, когда указано иное, содержимое этой вики предоставляется на условиях следующей лицензии:<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license" class="urlextern">CC Attribution-Noncommercial-Share Alike 3.0 Unported</a></div>
+</div>
+
+<div class="footerinc">
+  <!-- SF logo -->
+  <a href="http://sourceforge.net/projects/phpmorphy"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=192189&amp;type=10" width="80" height="15" alt="Get phpMorphy at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+
+  <a  href="/dokuwiki/feed.php" title="Recent changes RSS feed"><img src="/dokuwiki/lib/tpl/phpmorphy/images/button-rss.png" width="80" height="15" alt="Recent changes RSS feed" /></a>
+
+        <a  href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license" title="CC Attribution-Noncommercial-Share Alike 3.0 Unported"><img src="/dokuwiki/lib/images/license/button/cc-by-nc-sa.png" width="80" height="15" alt="" /></a>
+  
+  <a  href="http://www.dokuwiki.org/donate" title="Donate"><img src="/dokuwiki/lib/tpl/phpmorphy/images/button-donate.gif" alt="Donate" width="80" height="15" /></a>
+
+  <a  href="http://www.php.net" title="Powered by PHP"><img src="/dokuwiki/lib/tpl/phpmorphy/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+
+  <a  href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0"><img src="/dokuwiki/lib/tpl/phpmorphy/images/button-xhtml.png" width="80" height="15" alt="Valid XHTML 1.0" /></a>
+
+  <a  href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS"><img src="/dokuwiki/lib/tpl/phpmorphy/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+
+  <a  href="http://dokuwiki.org/" title="Driven by DokuWiki"><img src="/dokuwiki/lib/tpl/phpmorphy/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+
+
+
+</div>
+
+<div class="no"><img src="/dokuwiki/lib/exe/indexer.php?id=start&amp;1579481636" width="1" height="1" alt=""  /></div>
+</body>
+</html>
